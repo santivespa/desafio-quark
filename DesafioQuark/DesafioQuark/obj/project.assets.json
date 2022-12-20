@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\santi\\OneDrive\\Desktop\\DesafioQuark\\DesafioQuark\\DesafioQuark.csproj",
+      "projectUniqueName": "C:\\Users\\santi\\OneDrive\\Documents\\repos\\desafio-quark\\DesafioQuark\\DesafioQuark\\DesafioQuark.csproj",
       "projectName": "DesafioQuark",
-      "projectPath": "C:\\Users\\santi\\OneDrive\\Desktop\\DesafioQuark\\DesafioQuark\\DesafioQuark.csproj",
+      "projectPath": "C:\\Users\\santi\\OneDrive\\Documents\\repos\\desafio-quark\\DesafioQuark\\DesafioQuark\\DesafioQuark.csproj",
       "packagesPath": "C:\\Users\\santi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\santi\\OneDrive\\Desktop\\DesafioQuark\\DesafioQuark\\obj\\",
+      "outputPath": "C:\\Users\\santi\\OneDrive\\Documents\\repos\\desafio-quark\\DesafioQuark\\DesafioQuark\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\santi\\AppData\\Roaming\\NuGet\\NuGet.Config",
