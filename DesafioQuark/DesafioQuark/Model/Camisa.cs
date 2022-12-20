@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DesafioQuark.Model
 {
-    internal class Camisa : Prenda
+    public class Camisa : Prenda
     {
 
         public MangasCamisa TipoManga { get; set; }

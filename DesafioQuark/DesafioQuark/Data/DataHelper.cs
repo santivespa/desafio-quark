@@ -57,7 +57,7 @@ namespace DesafioQuark.Data
                 Codigo = 4,
                 TipoManga = Camisa.MangasCamisa.Corta,
                 TipoCuello = Camisa.CuellosCamisa.Comun,
-                Calidad = Prenda.CalidadPrenda.Standard,
+                Calidad = Prenda.CalidadPrenda.Premium,
                 Precio = 40,
                 Stock = 150
             });
@@ -104,7 +104,7 @@ namespace DesafioQuark.Data
                 Codigo = 8,
                 TipoManga = Camisa.MangasCamisa.Larga,
                 TipoCuello = Camisa.CuellosCamisa.Comun,
-                Calidad = Prenda.CalidadPrenda.Standard,
+                Calidad = Prenda.CalidadPrenda.Premium,
                 Precio = 80,
                 Stock = 175
             });

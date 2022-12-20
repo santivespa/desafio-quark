@@ -25,7 +25,7 @@ namespace DesafioQuark
 
         }
 
-        static void MostrarMenu()
+        private static void MostrarMenu()
         {
          
             Vista.WriteLine("Menu:");
@@ -58,7 +58,7 @@ namespace DesafioQuark
 
 
         #region Cotizar
-        static void Cotizar()
+        private static void Cotizar()
         {
             Prenda prenda = null;
             Vista.Write("Ingresar codigo de la prenda: ");
@@ -115,7 +115,7 @@ namespace DesafioQuark
         #endregion
 
 
-        static void MostrarHistorial()
+        private static void MostrarHistorial()
         {
             Vista.WriteLine($"Historial de cotizaciones");
             foreach (var cotizacion in vendedor.Cotizaciones)
@@ -128,7 +128,7 @@ namespace DesafioQuark
             MostrarMenu();
         }
 
-        static bool ValidarOpcion(string opcion)
+        private static bool ValidarOpcion(string opcion)
         {
             int opcionInt;
             if (!int.TryParse(opcion, out opcionInt))

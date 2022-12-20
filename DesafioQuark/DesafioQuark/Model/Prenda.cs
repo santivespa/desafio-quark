@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DesafioQuark.Model
 {
-    internal class Prenda
+    public class Prenda
     {
         public int Codigo { get; set; }
         public CalidadPrenda Calidad { get; set; }
@@ -40,7 +40,7 @@ namespace DesafioQuark.Model
             Premium
         }
 
-        public decimal CalcularResultado(int cantidad)
+        internal decimal CalcularResultado(int cantidad)
         {
             decimal resultado = this.Precio * cantidad;
 
